@@ -1,0 +1,28 @@
+# Future project work; the initial package has no such directory.
+/作品/
+
+# Personal references stay local unless explicitly added.
+/design-library/*
+!/design-library/README.md
+!/design-library/images/
+/design-library/images/*
+!/design-library/images/.gitkeep
+
+# Python and editor files.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.idea/
+.vscode/
+
+# Secrets and operating-system files.
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# rag/index.json and visuals/images/ are intentionally tracked.
